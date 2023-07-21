@@ -1,0 +1,104 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+#tete {
+    width: 80vh;
+    height: 80vh;
+    background-color: burlywood;
+    border: 1vh dashed palevioletred;
+    display: inline-grid;
+    justify-content: initial;
+}
+
+.oeilun {
+    width: 20vh;
+    height: 20vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupilleun {
+    width: 5vh;
+    height: 5vh;
+    background-color: gold;
+    border-radius: 50%;
+    position: relative;
+    top: 6vh;
+    right: -3vh;
+}
+
+.oeilde {
+    width: 20vh;
+    height: 20vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupillede {
+    width: 5vh;
+    height: 5vh;
+    background-color: gold;
+    border-radius: 50%;
+    position: relative;
+    top: 4vh;
+    left: -6vh;
+}
+
+.haut {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#nez {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: limegreen;
+}
+
+.centre {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bas {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bouche {
+    max-width: 60vh;
+    width: 60vw;
+    height: 25vh;
+    background-color: palevioletred;
+
+
+
+}
+
+.chico {
+    width: 10vh;
+    height: 12vh;
+    background-color: antiquewhite;
+    margin-left: 1vh;
+}
+
+.chicots {
+    display: flex;
+    justify-content: center;
+}

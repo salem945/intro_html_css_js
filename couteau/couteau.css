@@ -1,0 +1,50 @@
+.ledoigt {
+    width: 58vw;
+    height: 30vh;
+    position: relative;
+    left: 160px;
+}
+
+body {
+    background-color: coral;
+}
+
+h1 {
+    color: blue;
+}
+
+
+.machette {
+    animation: rotation 2s infinite linear;
+    z-index: 50000;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-359deg);
+    }
+}
+
+
+.eclaboussure {
+    bottom: 10vh;
+    position: absolute;
+    animation: scale 2s infinite;
+    animation-delay: 500ms;
+    transform-origin: 182px 211px;
+    left: 40vw;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,89 @@
+#salut {
+    height: 17px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.boitea {
+    height: 31vh;
+    width: 100%;
+    background-color: darkolivegreen;
+
+}
+
+
+u {
+    color: blueviolet;
+}
+
+.a {
+    height: 12vh;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.care {
+    height: 12vh;
+    width: 8vw;
+    background-color: hotpink;
+}
+
+.b {
+    margin-top: 20px;
+    height: 3vh;
+    width: 5vh;
+    background-color: sandybrown;
+}
+
+.papab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boiteb {
+    height: 31vh;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdeu {
+    height: 8vh;
+    width: 9vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slt {
+    color: green;
+}
+
+.boitec {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 31vh;
+    width: 100%;
+    background-color: khaki;
+}
+
+#carerange {
+    height: 5vh;
+    width: 5vh;
+    background-color: chocolate;
+}
+
+#careblu {
+    height: 7vh;
+    width: 5vh;
+    background-color: cadetblue;
+}

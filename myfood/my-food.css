@@ -1,0 +1,246 @@
+body {
+    background-color: #81817c26;
+    margin: 0px;
+}
+
+.trait {
+    height: 3px;
+    width: 30px;
+    font-weight: bold;
+    background-color: black;
+}
+
+#navv {
+    position: absolute;
+    left: 1px;
+    display: inline-block;
+    margin: 7px;
+}
+
+#menumobile {
+    display: flex;
+    justify-content: center;
+    font-family: 'Karma';
+}
+
+
+
+#menu {
+    display: none;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    left: 0px;
+    background-color: #dfddc7eb;
+    ;
+    font-size: 45px;
+
+}
+
+#mennu {
+    list-style-type: none;
+    text-align: center;
+}
+
+#croix {
+    background-color: #dfddc7eb;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+}
+
+#x {
+    font-size: 30px;
+}
+
+.images {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#menu.chapai {
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    min-width: 30vh;
+}
+
+
+
+.text-description h2,
+.text-description p,
+.text-description .we {
+    text-align: center;
+    font-family: 'Karma';
+
+}
+
+.sandwich {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pageu {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+#pages .pageu {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+#pageun.mousover {
+    background-color: black;
+    color: white;
+}
+
+#pagedeux.overdeu {
+    background-color: black;
+    color: white;
+}
+
+#pagetrois.overtrois {
+    background-color: black;
+    color: white;
+
+}
+
+#pagequatre.overquatre {
+    background-color: black;
+    color: white;
+}
+
+.about {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 15vh;
+    margin-top: 15vh;
+    text-align: center;
+    font-family: 'Karma';
+}
+
+hr {
+    width: 90vw;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#tags {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+
+
+.blogbox {
+    display: flex;
+
+}
+
+
+.txtblgun {
+    display: flex;
+    align-items: center;
+}
+
+.blogboxdeu {
+    display: flex;
+}
+
+.txtblgdeu {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    font-family: 'Karma';
+    margin-left: 20px;
+}
+
+hr {
+    background-color: darkgray;
+    height: 1px;
+}
+
+.fter {
+    margin: 15vh 0vw 3vh 0vw;
+}
+
+.tagz {
+    cursor: pointer;
+    background-color: dimgray;
+    color: aliceblue;
+    font-family: 'Karma';
+}
+
+.klik {
+    background-color: black;
+}
+
+#flechegauche p {
+    font-weight: bold;
+}
+
+#flechedroite p {
+    font-weight: bold;
+}
+
+#ligne {
+    bottom: 56px;
+    align-items: stretch;
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+}
+
+#menudesktop {
+    font-family: 'Karma';
+}
+
+@media(min-width:991px) {
+    #menumobile {
+        display: none;
+    }
+}
+
+
+@media(max-width:991px) {
+    #menudesktop {
+        display: none;
+    }
+}
+
+.gvoche p {
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    display: none;
+}

@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>             
+  
+          
+          
+                                                                                                    
+                                                                                                                          
+    <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/runtime.fab17e3c.js"></script><script src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/ads.930ed0c8.js"></script>
+  <script>
+      dataLayer = [{
+        'source'   : 'OVERBLOG',
+        'theme'    : '64',
+        'adUnitID' : '/6783/OverBlogKiwi/fr',
+        'group'    : 'Blog-Business',
+        'category' : 'Companies & Brands',
+        'rating'   : 'BS',
+        'unused'   : 'No',
+        'adult'    : 'No',
+        'pda'      : 'No',
+        'hasAds'   : 'No',
+        'lang'     : 'fr',
+        'adblock'  : '__ads_loaded__' in window ? 'No' : 'Yes',
+        'blog_id'  : '1844442',
+        'blog_name': "DVSM",
+        'premium'  : 'Yes',
+        'slots'    : {},
+                  'article_type': 'article',
+          'article_id': '100523063',
+          'article_categories': [
+                        "L'info en temps r\u00e9el",                        "- Sourires et clins d'oeil"                    ]
+              }];
+  </script>
+      <!-- DIDOMI CPM TAG STARTS -->
+    <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+    else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+    var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+    if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e,tgt){
+    var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target_type=notice&target="+tgt;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("e23a01f6-a508-4e71-8f50-c1a9cae7c0d0","fBVP2nLa")})();</script>
+    <!-- DIDOMI CPM TAG ENDS -->
+  
+<script>
+  // Paywall Bounce Rate pixel
+  function sendCustomPixel(method, consent, tcfStatus) {
+    var pixelUrl = "https://bpt.webedia-group.com/pixel.png?/domain=overblog.com&referrer=" + document.referrer + "&site_route=" + dataLayer[0].blog_name + "_" + (typeof jad !== "undefined") + "&event=tcfapi&method=" + method + "&consent=" + consent + "&tcfStatus=" + tcfStatus
+    var img = document.createElement('img');
+    img.style = "display: none;"
+    img.src = pixelUrl;
+    document.body.appendChild(img);
+  }
+
+  function triggerOnReadyOrTimeout(action, tcfStatus) {
+
+    var done = false;
+
+    function doItIfNotDone(method, consent, tcfStatus) {
+      if (!done) {
+        action(method, consent, tcfStatus);
+        done = true;
+      }
+    }
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) {
+      var consent = Didomi.isConsentRequired() ? Didomi.getUserConsentStatusForVendor("c:googleana-XMqagawa") && Didomi.getUserConsentStatusForVendor("google") : true;
+      var consentToString = consent == undefined ? "undefined" : consent;
+      doItIfNotDone("didomiOnReady", consentToString, tcfStatus);
+    });
+
+    setTimeout(function() {doItIfNotDone("timeout", "false", tcfStatus)}, 1000);
+  }
+
+  var tcfok = false;
+
+  var tryTcfApiTimer = 0;
+
+  var tryToReachTcfApi = setInterval(function() {
+    if (typeof __tcfapi !== "undefined") {
+      clearInterval(tryToReachTcfApi);
+      launchTcfApi()
+    } else if (tryTcfApiTimer > 3000) {
+      clearInterval(tryToReachTcfApi);
+      triggerOnReadyOrTimeout(sendCustomPixel, "tcfnotloaded")
+    }
+    tryTcfApiTimer += 200;
+  }, 200)
+
+  function launchTcfApi() {
+    __tcfapi('addEventListener', 2, function(tcData, success) {
+      if (success) {
+        try{
+          switch (tcData.eventStatus) {
+            case "useractioncomplete":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              __tcfapi('removeEventListener', 2, function(){}, tcData.listenerId)
+              break;
+            case "cmpuishown":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              break;
+            case "tcloaded":
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+              __tcfapi('removeEventListener', 2, function(){}, tcData.listenerId)
+              break;
+            default:
+              triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+          }
+        } catch (error) {
+          triggerOnReadyOrTimeout(sendCustomPixel, tcData.eventStatus);
+        }
+        tcfok = true;
+      }
+    });
+
+    setTimeout(function() {
+      if (!tcfok) {
+        triggerOnReadyOrTimeout(sendCustomPixel, "tcfnotloaded")
+      }
+    }, 2000);
+  }
+</script>
+  <style>
+    [class^=app_gdpr] a {
+        color: white !important;
+    }
+    [class^=app_gdpr] a[href], [class^=app_gdpr] [class^=banner_message] a:not([class^=banner_continue]) {
+        text-decoration: underline;
+    }
+    [class^=app_gdpr] a svg {
+        fill: white !important;
+    }
+    [class^=app_gdpr] [class^=banner_banner], [class^=app_gdpr] [class^=popup_popup]{
+        z-index: 2147483647 !important;
+    }
+</style>
+    <script>
+    if (window.parent !== window) {
+      if (typeof btoa !== "function") {
+        window.btoa = function (input) {
+          var str = String(input);
+          for (var block, charCode, idx = 0, map = chars, output = ''; str.charAt(idx | 0) || (map = '=', idx % 1); output += map.charAt(63 & block >> 8 - idx % 1 * 8)) {
+            charCode = str.charCodeAt(idx += 3/4)
+            block = block << 8 | charCode
+          }
+          return output
+        }
+      }
+      var re = /^(?:https?:)?(?:\/\/)?([^\/\?]+)/i
+      var res = re.exec(document.referrer)
+      var domain = res[1]
+      var forbidden = ["aGVsbG8ubGFuZA==","Y3Vpc2luZS5sYW5k","cmVjZXR0ZS5sYW5k","cmVjZXR0ZXMubGFuZA==",]
+      if (forbidden.indexOf(btoa(domain)) > -1) {
+        document.location = document.location.origin + "/system/noframed"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/main.e00cbf9d.css">
+          <!-- Basic theme id 64 [Floating posts] - last modified : 2023-04-25T10:47:00+02:00 -->
+             <!-- shortcut:[Meta] -->
+            <!-- title -->
+                    
+
+
+                    
+
+        <!-- Title -->
+        <title>CONNEXION, le doigt coupé où la connexion perdue, le digital mutilant… - DVSM</title>
+            <!-- metas description, keyword, robots -->
+            <!-- Metas -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="DVSM" />
+
+        <meta property="og:site_name" content="DVSM" />
+        <meta property="og:title" content="CONNEXION, le doigt coupé où la connexion perdue, le digital mutilant… - DVSM" />
+        <meta name="twitter:title" content="CONNEXION, le doigt coupé où la connexion perdue, le digital mutilant… - DVSM" />
+        <meta name="description" content="Il y a parfois des choix compliqués à faire dans la vie. Et des esprits de sondeurs dont les boyaux de la tête obéissent à des mécanismes encore plus compliqués. - DVSM, mars 2019. Louis XVI et son autrichienne de compagne auraient-ils répondu un peu..." />
+        <meta property="og:description" content="Il y a parfois des choix compliqués à faire dans la vie. Et des esprits de sondeurs dont les boyaux de la tête obéissent à des mécanismes encore plus compliqués. - DVSM, mars 2019. Louis XVI et son autrichienne de compagne auraient-ils répondu un peu..." />
+        <meta name="twitter:description" content="Il y a parfois des choix compliqués à faire dans la vie. Et des esprits de sondeurs dont les boyaux de la tête obéissent à des mécanismes encore plus compliqués. - DVSM, mars 2019. Louis XVI et son autrichienne..." />
+        <meta property="og:locale" content="fr_FR" />
+
+        <meta property="og:image" content="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_34a883_aaf-doigt-coupe.jpg" />
+        <meta name="twitter:image:src" content="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_34a883_aaf-doigt-coupe.jpg" />
+        <meta property="og:url"  content="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html" />
+        <meta name="twitter:url" content="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@overblog" />
+        <meta name="twitter:creator" content="@" />
+        <meta property="fb:app_id" content="284865384904712" />
+
+    
+                                    
+
+        <!-- Robots -->
+        <meta name="robots" content="index,follow" />
+
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss" />
+
+    
+                
+<!-- Analytics -->
+<!-- NewsArticle schema -->
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "headline": "CONNEXION, le doigt coup\u00e9 o\u00f9 la connexion perdue, le digital mutilant\u2026",
+    "description": "Il y a parfois des choix compliqu\u00e9s \u00e0 faire dans la vie. Et des esprits de sondeurs dont les boyaux de la t\u00eate ob\u00e9issent \u00e0 des m\u00e9canismes encore plus compliqu\u00e9s. - DVSM, mars 2019. Louis XVI et son autrichienne de compagne auraient-ils r\u00e9pondu un peu...",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html"
+    },
+        "datePublished": "2019-03-15T17:12:33+01:00",
+    "dateModified": "2019-03-15T17:44:41+01:00",
+            "author": {
+      "@type": "Person",
+      "name": "DVSM"
+    },
+        "image": [
+      "https:\/\/img.over-blog-kiwi.com\/1\/84\/44\/42\/20190315\/ob_34a883_aaf-doigt-coupe.jpg"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "DVSM",
+      "url": "http:\/\/www.dvsm.eu",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/assets.over-blog-kiwi.com\/b\/blog\/v2023.14.02\/build\/images\/logo-overblog-big.png",
+        "width": 550,
+        "height": 210
+      }
+    }
+  }
+</script>
+
+            <!-- shortcut:[Includes] -->
+            <!-- favicon -->
+            <!-- Metas -->
+        <link rel="icon" type="image/png" href="https://img.over-blog-kiwi.com/1/84/44/42/20150915/ob_cb0234_carre-intro.jpg" />
+
+            <!-- shortcut:[Options] -->
+                                                
+                                                                                                                                                                        
+                                                                                                                        
+                        
+                                                                                                                                                                                                                                                
+                        
+                        
+            <link rel="stylesheet" type="text/css" href="https://assets.over-blog.com/t/catalog/jquery/fancybox/2.5/source/jquery.fancybox.css" media="screen" />
+
+            <!-- Fonts -->
+            <link href='https://fonts.over-blog.com/?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css' />
+
+            <style type="text/css">
+                .ob-h1 {
+                    display: block;
+                    font-size: 2em;
+                    margin-top: 0.67em;
+                    margin-bottom: 0.67em;
+                    font-weight: bold;
+                }
+                .ob-h2 {
+                    display: block;
+                    font-size: 1.5em;
+                    margin-top: 0.83em;
+                    margin-bottom: 0.83em;
+                    font-weight: bold;
+                }
+                .ob-h3 {
+                    display: block;
+                    font-size: 1.17em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    font-weight: bold;
+                }
+                .ob-h4 {
+                    display: block;
+                    margin-top: 1.33em;
+                    margin-bottom: 1.33em;
+                    font-weight: bold;
+                }
+                .ob-h5 {
+                    display: block;
+                    font-size: 0.83em;
+                    margin-top: 1.67em;
+                    margin-bottom: 1.67em;
+                    font-weight: bold;
+                }
+                .ob-h6 {
+                    display: block;
+                    font-size: 0.67em;
+                    margin-top: 2.33em;
+                    margin-bottom: 2.33em;
+                    font-weight: bold;
+                }
+                /* Base css from knacss.com */
+                /* ----------------------------- */
+                /* ==reset */
+                /* ----------------------------- */
+                /* base font-size corresponds to 10px */
+                html {font-size: 62.5%;}
+                body {
+                    background-color: #fff;
+                    color: #111;
+                    font-family: "Lato", sans-serif, arial, helvetica, sans-serif;
+                    line-height: 1.5;
+                }
+
+                /* HTML5 tags */
+                article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
+
+                /* soft reset */
+                html, body, blockquote, ul, ol, form {margin: 0; padding: 0}
+                p {margin: 0 0 1em;}
+                ul, ol {padding-left: 2em;}
+                .mreset {margin: 0 !important;}
+                .preset {padding: 0 !important;}
+
+                /* font-sizing for content */
+                p, li, td, th, textarea, caption, pre {font-size: 1.4em;}
+                li li, li p, td p, th p,
+                li h1, li h2, li h3, li h4, li h5, li h6,
+                li .ob-h1, li .ob-h2, li .ob-h3, li .ob-h4, li .ob-h5, li .ob-h6,
+                button, input, select {font-size: 100%}
+                h1, .ob-h1, .h1-like, .blog-title {font-size: 2.4em;} /* equiv 24 pixels */
+                h2, .ob-h2, .h2-like, .post-title {font-size: 2.0em;} /* equiv 20 pixels */
+                h3, .ob-h3, .h3-like, .widget-title {font-size: 1.8em;} /* equiv 18 pixels */
+                h4, .ob-h4, .h4-like {font-size: 1.6em;} /* equiv 16 pixels */
+                h5, .ob-h5, .h5-like {font-size: 1.4em;} /* equiv 14 pixels */
+
+                /* alternate font-sizing */
+                .smallest {font-size: .7em;}
+                .smaller {font-size: .8em;}
+                .small {font-size: .9em;}
+                .big {font-size: 1.07em;} /* equiv 15 pixels */
+                .bigger {font-size: 1.14em;} /* equiv 16 pixels */
+                .biggest {font-size: 1.28em;} /* equiv 18 pixels */
+
+                /* avoid collapsing margins */
+                h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child,
+                .ob-h1:first-child, .ob-h2:first-child, .ob-h3:first-child, .ob-h4:first-child, .ob-h5:first-child,,
+                .blog-title:first-child, .post-title:first-child, .widget-title:first-child {
+                    margin-top: 0;
+                }
+                /* avoid last paragraph bottom margin */
+                p:last-child {margin-bottom: 0;}
+
+
+                /* max values */
+                img, table, td, blockquote, code, pre, textarea{
+                    height: auto;
+                    max-width: 100%;
+                }
+
+                /* you shall not pass */
+                textarea, table, td, th, code, pre, samp, div, p {
+                    word-wrap: break-word;
+                    -webkit-hyphens: auto;
+                    -moz-hyphens: auto;
+                    -ms-hyphens: auto;
+                    -o-hyphens: auto;
+                    hyphens: auto;
+                }
+                code, pre, samp {white-space: pre-wrap;}
+
+                h1, h2, .ob-h1, .ob-h2, .blog-title, .post-title, .widget-title{
+                                            font-family: Lato;
+                                    }
+
+                a{
+                    color: #222;
+                }
+
+                /* pictures */
+                img {
+                    vertical-align: middle;
+                }
+                a img {border: 0;}
+
+                /* ----------------------------- */
+                /* ==layout and modules */
+                /* ----------------------------- */
+                * {
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+                .wrapper {
+                    margin: 0 auto;
+                    padding: 40px 0 70px;
+                    width: 980px;
+                }
+
+                /* blocks that needs to be placed under floats */
+                .clear {clear: both;}
+
+                /* blocks that can contain floats */
+                .clearfix:before, .clearfix:after{
+                    content: "";
+                    display: table;
+                }
+                .clearfix:after{
+                    clear: both;
+                }
+                .visuallyhidden,
+                .ob-form-subscription label {
+                  position: absolute;
+                  overflow: hidden;
+                  clip: rect(0 0 0 0);
+                  height: 1px; width: 1px;
+                  margin: -1px; padding: 0; border: 0;
+                }
+                /* ----------------------------- */
+                /* ==header */
+                /* ----------------------------- */
+                #global > header{
+                                        background-color: #fff;
+                }
+                .banner {
+                    color: #111;
+                    min-height: 180px;
+                    margin: 0 auto;
+                    padding: 20px 20px 30px;
+                    position: relative;
+                    width: 980px;
+                }
+                .banner .blog-title {
+                    font-size: 3em;
+                    margin: 0;
+                }
+                .banner a {
+                    text-decoration: none;
+                }
+                .avatar{
+                    margin-right:20px;
+                }
+                .avatar,
+                .banner-title{
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .banner-title{
+                    max-width: 810px;
+                }
+                .menu {
+                    bottom: 0;
+                    float: left;
+                    left: 0;
+                    margin-top: 30px;
+                    max-width: 70%;
+                    position: absolute;
+                }
+                .menu ul {
+                    list-style: none;
+                    padding-left: 0;
+                }
+                .menu li {
+                    background-color: #fff;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    float: left;
+                }
+                .menu a{
+                    color: #111;
+                    display: block;
+                    padding: 5px 15px 4px;
+                    text-decoration: none;
+                }
+                .menu a:hover,
+                .menu li.active a{
+                    border-bottom: 2px solid #111;
+                    padding-bottom: 2px;
+                }
+                .search-form {
+                    border-left: 3px solid #111;
+                    bottom: 5px;
+                    float: right;
+                    margin-top: 30px;
+                    overflow: hidden;
+                    position: absolute;
+                    right: 0;
+                    width: 252px;
+                }
+                .search-input {
+                    background: #fff;
+                    border-bottom: 1px solid #eee;
+                    border-top: 1px solid #eee;
+                    color: #111;
+                    border-left: 3px solid #fff;
+                    font-family: "Lato", sans-serif, arial, helvetica, sans-serif;
+                    font-size: 1.4em;
+                    font-weight: bold;
+                    float: left;
+                    margin: 0;
+                    padding: 3px 7px;
+                    width: 219px;
+                }
+                .search-submit {
+                    background: #111 url(//assets.over-blog.com/t/floating_posts/images/sprite.png) no-repeat 7px -447px;
+                    border: none;
+                    cursor: pointer;
+                    float: right;
+                    height: 25px;
+                    width: 30px;
+                }
+                .search-submit:hover {background-position: 7px -482px;}
+
+                .blog-title,
+                .widget-title{
+                    font-weight: bold;
+                }
+
+                /* ----------------------------- */
+                /* ==main */
+                /* ----------------------------- */
+                .main {
+                    background: #F6F6F6 url(//assets.over-blog.com/t/floating_posts/images/bg.jpg) repeat;
+                    border-top: 1px solid #EEE;
+                    padding-bottom: 80px;
+                }
+                .content {
+                    float: left;
+                    width: 675px;
+                }
+
+                article,
+                .widget,
+                .item-comments {
+                    background: #fff;
+                    border: 1px solid #CCC;
+                    margin-bottom: 20px;
+                }
+                article,
+                .item-comments {
+                    float: left;
+                }
+                .item {
+                    margin-right: 20px;
+                    width: 205px;
+                }
+                .single .item,
+                .item-comments,
+                .special article,
+                article.no-result{
+                    background: #fff;
+                    float: none;
+                    width: 640px;
+                }
+                article.no-result{
+                    width:655px;
+                }
+                .no-result-wrap {
+                    position: relative;
+                }
+                .special h3,
+                .item-comments>h3,
+                .special .ob-h3,
+                .item-comments>.ob-h3{
+                    background-color: #111;
+                    color: #fff;
+                    padding: 10px 15px;
+                }
+                article header,
+                .widget header{
+                    background-color: #111;
+                    padding: 10px 15px;
+                }
+                .post-title,
+                .widget-title{
+                    color: #fff;
+                    font-size: 1.8em;
+                    margin-bottom: 0;
+                }
+                .post-title a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .post-title a:hover {
+                    color: #DDD;
+                }
+                article time {
+                    color: #ccc;
+                    font-size: 1.2em;
+                }
+                article .entry,
+                .widget .entry{
+                    border-bottom: 3px solid #111;
+                    padding: 10px 12px;
+                }
+                .entry .permalink {
+                    display: block;
+                    text-align: center;
+                }
+                article .permalink img {
+                    margin-bottom: 10px;
+                }
+                article .entry .snippet {
+                    margin-bottom: 0;
+                }
+                article .entry .read-more {
+                    color: #999;
+                    font-size: 1.4em;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+                article .entry .read-more:hover {
+                    text-decoration: underline;
+                }
+                article .entry .read-more:before {
+                    content: "» ";
+                    font-size: 1.4em;
+                    font-weight: 400;
+                }
+                article .comments-number {
+                    margin: 20px 0 5px;
+                }
+                article .comments-number a {
+                    color: #111;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                article .comments-number :hover {
+                    text-decoration: underline;
+                }
+                article .comments-number .number {
+                    background: #111;
+                    color: #FFF;
+                    display: inline-block;
+                    float: right;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    line-height: normal;
+                    margin-left: 10px;
+                    padding: 3px 10px;
+                    position: relative;
+                    text-decoration: none;
+                    z-index: 1;
+                }
+                article .comments-number a.number:after {
+                    border: 10px solid transparent;
+                    border-right-color: #111;
+                    content: "";
+                    position: absolute;
+                    top: 4px;
+                    right: 7px;
+                    z-index: -1;
+                }
+                .single .twitter-follow {
+                    margin-bottom: 20px;
+                }
+                .single footer{
+                    background: #FAFAFA;
+                }
+                /* ----------------------------- */
+                /* ==Tweet */
+                /* ----------------------------- */
+                .tweet {
+                    border-bottom: 1px dashed #DDD;
+                    padding-bottom: 5px;
+                    position: relative;
+                }
+                .tweet .ob-section {
+                    margin-bottom: 0;
+                }
+                blockquote.ob-tweet {
+                    background: none;
+                    border: none;
+                    -webkit-border-radius: 0;
+                       -moz-border-radius: 0;
+                        -ms-border-radius: 0;
+                         -o-border-radius: 0;
+                            border-radius: 0;
+                    -webkit-box-shadow: none;
+                       -moz-box-shadow: none;
+                        -ms-box-shadow: none;
+                         -o-box-shadow: none;
+                            box-shadow: none;
+                    font-family: 'Helvetica Neue',Arial,sans-serif;
+                    padding: 0;
+                }
+                /* Avatar */
+                .twitter-tweet img,
+                blockquote.ob-tweet .ob-media-left {
+                    -webkit-border-radius: 0;
+                       -moz-border-radius: 0;
+                        -ms-border-radius: 0;
+                         -o-border-radius: 0;
+                            border-radius: 0;
+                    float: left;
+                    height: auto;
+                    margin: 0 0 0 0;
+                    min-height: 0;
+                    width: 30px;
+                }
+                /* Author */
+                blockquote.ob-tweet .ob-tweet-author {
+                    left: 35px;
+                    line-height: normal;
+                    top: -2px;
+                }
+                blockquote.ob-tweet .ob-tweet-author a {
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+                /* Text */
+                blockquote.ob-tweet .ob-text {
+                    padding-top: 50px;
+                }
+                blockquote.ob-tweet .ob-text a {
+                    color: #0084B4;
+                    text-decoration: none;
+                }
+                blockquote.ob-tweet .ob-text a:hover {
+                    text-decoration: underline;
+                }
+                .ob-tweet-bird {
+                    display: none;
+                }
+                blockquote.ob-tweet .ob-tweet-date,
+                .ob-tweet .ob-tweet-date a {
+                    font-size: 1.06em;
+                    text-decoration: none;
+                }
+                /* buttons */
+                .tweet-actions {
+                    bottom: 3px;
+                    position: absolute;
+                    right: 0;
+                }
+                .tweet-actions a {
+                    background-image: url(//assets.over-blog.com/t/floating_posts/images/twitter-sprite.png);
+                    display: inline-block;
+                    height: 16px;
+                    margin: 0 2px;
+                    width: 16px;
+                }
+                .tweet-reply:hover {background-position: -16px top;}
+                .tweet-retweet {background-position: -80px top;}
+                .tweet-retweet:hover {background-position: -96px top;}
+                .tweet-favorite {background-position: -32px top;}
+                .tweet-favorite:hover {background-position: -48px top;}
+
+                /* Fancy box */
+                #fancybox-wrap,
+                #fancybox-content{
+                    -webkit-box-sizing: content-box;
+                       -moz-box-sizing: content-box;
+                            box-sizing: content-box;
+                }
+
+                /* sharing */
+                article .bloc-infos{
+                    padding: 10px 12px;
+                }
+
+                /* ----------------------------- */
+                /* ==sections */
+                /* ----------------------------- */
+
+                .ob-section a{
+                    color: #999;
+                    text-decoration: none;
+                }
+                .ob-section a:hover {
+                    text-decoration: underline;
+                }
+                .ob-section ul,
+                .ob-section ol {
+                    margin-bottom: 20px;
+                }
+
+                .ob-section-images img{
+                    margin: 10px auto;
+                    max-width: 100%;
+                }
+
+                .ob-section-map img{
+                    max-width: none;
+                }
+                .ob-section-video .ob-video,
+                .ob-section-video iframe,
+                .ob-section p iframe {
+                    border: 0;
+                    max-width: 100%;
+                }
+                .ob-section-images .ob-slideshow {
+                    height: 470px;
+                }
+                .ob-section-images .ob-slideshow .ob-link-img img {
+                    width: 100%;
+                }
+                .asset-img-link {
+                    margin: 0 15px 10px 0;
+                }
+
+                .ob-section-html .twitter-tweet-rendered,
+                .ob-section-html .twitter-tweet-rendered .twt-border {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                }
+                .ob-section-html p .twitter-follow-button {display: none;}
+
+                /* ----------------------------- */
+                /* ==comments */
+                /* ----------------------------- */
+                #ob-comments,
+                .fb-comments {
+                    font-size: inherit;
+                    padding: 10px 12px;
+                }
+                #disqus_thread{
+                    margin: 0 12px;
+                }
+
+                /* ----------------------------- */
+                /* ==special */
+                /* ----------------------------- */
+                .special .ob-contact form{
+                    margin-bottom: 4em;
+                }
+                label{
+                    font-size: 1.4em;
+                    padding-right: 10px;
+                    text-align: right;
+                    line-height: 1.8em;
+                }
+                .entry label,
+                .entry input{
+                    font-size: 1.2em;
+                }
+                input{
+                    font-size: 1.4em;
+                }
+                input[type="submit"]{
+                    border: none;
+                    color: #FFF;
+                    cursor: pointer;
+                    padding: 5px 8px;
+                    text-transform: capitalize;
+                }
+                .ob-succes{
+                    color: #222;
+                    font-size: 1.4em;
+                    padding: 0 12px;
+                }
+                .ob-terms{
+                    color: #222;
+                    display: block;
+                    font-size: 1.3em;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                .ob-terms:hover {
+                    text-decoration: underline;
+                }
+
+                /* ----------------------------- */
+                /* ==sidebar */
+                /* ----------------------------- */
+                .sidebar {
+                    float: right;
+                    width: 300px;
+                }
+                .widget-title:first-letter {
+                    display: inline-block;
+                    text-transform: capitalize;
+                }
+                .widget ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                /* about */
+                .widget .avatar img {margin-bottom: 15px;}
+
+                /* follow */
+                .follow li {
+                    margin-bottom: 10px;
+                }
+                .follow li a {
+                    font-size: 1.1em;
+                    display: block;
+                    padding: 0 0 5px;
+                    text-decoration: none;
+                }
+                .follow li:hover a {color: #AAA;}
+                .follow li a:before {
+                    background: url(//assets.over-blog.com/t/floating_posts/images/sprite.png) no-repeat 1px -292px;
+                    content: '';
+                    display: inline-block;
+                    margin-right: 5px;
+                    height: 27px;
+                    vertical-align: top;
+                    width: 27px;
+                }
+                .follow li.fb a:before {background-position: 1px -262px;}
+                .follow li.rss a:before {background-position: 1px -322px;}
+                .follow li.tw:hover a:before {background-position: 1px -382px;}
+                .follow li.fb:hover a:before {background-position: 1px -352px;}
+                .follow li.rss:hover a:before {background-position: 1px -412px;}
+
+                /* archives */
+                .archivelist a {
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                .arch_month {margin-left: 15px;}
+                .arch_month li {
+                    padding: 0 5px;
+                    -webkit-transition: background 200ms;
+                       -moz-transition: background 200ms;
+                         -o-transition: background 200ms;
+                            transition: background 200ms;
+                }
+                .arch_month li:hover {background: #F6F6F6;}
+                .arch_month a {
+                    font-size: 1.1em;
+                    font-weight: normal;
+                }
+                .arch_month span {
+                    display: inline-block;
+                    float: right;
+                }
+
+                /* tags */
+                .tags li {
+                    padding: 0 5px;
+                    -webkit-transition: background 200ms;
+                       -moz-transition: background 200ms;
+                         -o-transition: background 200ms;
+                            transition: background 200ms;
+                }
+                .tags li:hover {background: #F6F6F6;}
+                .tags li a {
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                .tags span {
+                    display: inline-block;
+                    float: right;
+                }
+
+                .item-tags{
+                    font-size: 1.26em;
+                    margin: 15px 0 10px;
+                }
+                .item-tags a {
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                .item-tags a:hover {
+                    text-decoration: underline;
+                }
+                /* Sidebar > Subscribe */
+                .ob-form-subscription .ob-form-field{
+                    display: inline-block;
+                }
+                .ob-form-subscription .ob-form-field input{
+                    width: 148px;
+                }
+                .ob-form-subscription .ob-input-submit{
+                    display: inline-block;
+                    margin:0;
+                }
+
+                /* last posts images */
+                .last-posts li {
+                    display: block;
+                    float: left;
+                    height: 137px;
+                    position: relative;
+                    width: 137px;
+                }
+                .last-posts .caption {
+                    background: #111;
+                    background: rgba(17,17,17,0.95);
+                    display: block;
+                    height: 100%;
+                    margin-top: -137px;
+                    filter:alpha(opacity=0);
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    width: 100%;
+                }
+                .last-posts ul:hover .caption {
+                    -webkit-transition: all 500ms ease;
+                       -moz-transition: all 500ms ease;
+                         -o-transition: all 500ms ease;
+                            transition: all 500ms ease;
+                }
+                .last-posts li:hover .caption {
+                    filter:alpha(opacity=100);
+                    opacity: 1;
+                }
+                .last-posts .caption a {
+                    color: #FFF;
+                    display: inline-block;
+                    font-weight: bold;
+                    margin-left: -100px;
+                    max-height: 100px;
+                    max-width: 100%;
+                    padding: 12px 15px 15px 15px;
+                    overflow: hidden;
+                }
+                .last-posts ul:hover .caption a {
+                    -webkit-transition: margin-left 300ms ease-out;
+                       -moz-transition: margin-left 300ms ease-out;
+                         -o-transition: margin-left 300ms ease-out;
+                            transition: margin-left 300ms ease-out;
+                }
+                .last-posts li:hover .caption a{
+                    margin-left: 0;
+                }
+                /* last posts textes */
+                .last-posts .text-li {
+                    display: block;
+                    width: 100%;
+                    height: initial;
+                    border-bottom: 1px solid #DDD;
+                    padding: 5px 3px;
+                    width: 100%;
+                    height: auto;
+                }
+                .last-posts .text-li a {
+                    text-decoration: none;
+                    text-transform: lowercase;
+                }
+                .last-posts .text-li:first-letter {
+                    text-transform: capitalize;
+                }
+                .last-posts .text-li:hover a {
+                    color: #fff;
+                }
+                .last-posts .text-li:hover {
+                    background: #000;
+                }
+                .last-posts .text-li:last-child {
+                    border-bottom: 0;
+                }
+
+                /* ----------------------------- */
+            /* ==navigation */
+            /* ----------------------------- */
+                        .ob-pagination {
+                text-align: center;
+            }
+            .ob-page {
+                font-size: 1.4em;
+                padding: 0 4px;
+                display: inline-block;
+                font-weight: bold;
+                margin-bottom: 15px;
+                text-decoration: none;
+            }
+            .ob-page-current {
+                color: #999;
+            }
+
+            .ob-PostNavigation {
+                bottom: auto;
+                margin: 30px 0;
+                padding: 0;
+                position: relative;
+                width: 640px;
+            }
+            .ob-PostNavigation-link {
+                font-size: 1.2em;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .ob-PostNavigation-link:hover {
+                text-decoration: underline;
+            }
+
+            .ob-PostNavigation-link--prev > .ob-PostNavigationLink-chevron:before {
+                background: url('https://assets.over-blog.com/t/floating_posts/images/sprite.png') no-repeat left -234px;
+                content: '';
+                display: block;
+                height: 15px;
+                width: 15px;
+            }
+            .ob-PostNavigation-link--next > .ob-PostNavigationLink-chevron:before {
+                background: url('https://assets.over-blog.com/t/floating_posts/images/sprite.png') no-repeat right -206px;
+                content: '';
+                display: block;
+                height: 15px;
+                width: 15px;
+            }
+
+            /* ----------------------------- */
+            /* ==footer */
+            /* ----------------------------- */
+                            input[type="submit"] {
+                    background-color: #4682b4;
+                }
+                .search-form {
+                    border-left-color: #4682b4;
+                }
+                .menu a:hover,
+                .menu li.active a,
+                article .entry,
+                .widget .entry {
+                    border-bottom-color: #4682b4;
+                }
+                .banner-title a,
+                .item-tags a,
+                .ob-PostNavigation-link {
+                    color: #4682b4;
+                }
+                            
+                /*****************
+                ** Top articles **
+                *****************/
+                .ob-top-posts h2, .ob-top-posts .ob-h2{
+                    color: #111;
+                    margin: 20px;
+                }
+                .ob-top-article{
+                    margin-bottom: 20px;
+                }
+                .ob-top-article h3 a, .ob-top-article .ob-h3 a{
+                    color: #fff;
+                }
+
+            </style>
+             <script>
+  (function(){
+    var hasGABeenLoaded = false;
+
+    function loadGA(hasDidomiConsent){   
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-5354236-47', {
+        cookieDomain: 'www.dvsm.eu',
+        cookieExpires: 34164000,
+        name: 'ob',
+        allowLinker: true
+      });
+
+      if(hasDidomiConsent){
+        ga('set', 'allowAdPersonalizationSignals', false)
+      }else{
+        ga('set', 'allowAdFeatures', false)
+      }
+
+      ga('ob.require', 'linkid', 'linkid.js');
+      ga('ob.set', 'anonymizeIp', true);
+      ga('ob.set', 'dimension1', '__ads_loaded__' in window ? '0' : '1');
+      ga('ob.set', 'dimension2', 'fr');
+      ga('ob.set', 'dimension3', 'BS');
+      ga('ob.set', 'dimension4', 'companies-brands');
+      ga('ob.set', 'dimension5', '0');
+      ga('ob.set', 'dimension6', '0');
+      ga('ob.set', 'dimension7', '0');
+      ga('ob.set', 'dimension10', '1844442');
+      ga('ob.set', 'dimension11', '1');
+      ga('ob.set', 'dimension12', '2');
+      ga('ob.set', 'dimension13', '0');
+      ga('ob.set', 'dimension14', '__ads_loaded__' in window ? '1' : '0');
+      ga('ob.set', 'dimension15', '__ads_loaded__' in window ? '0' : '1');
+      ga('ob.set', 'dimension16', '1844442');
+      ga('ob.set', 'dimension17', "DVSM");
+              ga('ob.set', 'dimension18', 'article');
+        ga('ob.set', 'dimension19', '100523063');
+        ga('ob.set', 'dimension20', 'L\'info en temps réel,- Sourires et clins d\'oeil');
+            if (location) {
+        ga('ob.set', 'dimension22', '' + location.hostname);
+      }
+      ga('ob.set', 'dimension23', hasDidomiConsent);
+      ga('ob.set', 'dimension24', '20150915');
+      ga('ob.send', 'pageview');
+
+      hasGABeenLoaded = true;
+    }
+
+    var loadGATimeoutID = setTimeout(function() {
+      loadGA();
+    }, 1000);
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(function (Didomi) { 
+      clearTimeout(loadGATimeoutID);
+
+      function getDidomiConsent(didomiId){
+        var consents = false;
+        if (Didomi.isConsentRequired()) {
+          consents = Didomi.getUserConsentStatusForVendor(didomiId);
+        } else {
+          consents = true;
+        }
+        return consents;
+      }
+
+      var hasGADidomiConsent = getDidomiConsent("google") && getDidomiConsent("c:googleana-XMqagawa");
+
+      if(!hasGABeenLoaded){
+        loadGA(hasGADidomiConsent);
+      }
+    });
+  })();
+</script>
+  
+<script>
+  function isConnected(connected, connected_owner, timestamp, user_id) {
+    if (connected) {
+      document.querySelector('html').classList.add('ob-connected')
+    }
+    if (connected_owner) {
+      document.querySelector('html').classList.add('ob-connected-blog')
+    }
+  }
+</script>
+<script src="//connect.over-blog.com/ping/1844442/isConnected" async></script>
+<script src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/main.c15ef79c.js"></script>
+
+ </head>
+        <body> 
+
+                                    
+  <div class="ob-ShareBar ob-ShareBar--dark js-ob-ShareBar">
+    <div class="ob-ShareBar-container ob-ShareBar-container--left">
+
+                        
+      
+      <a href="https://www.over-blog.com" class="ob-ShareBar-branding">        <img class="ob-ShareBar-brandingImg" src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/images/shareicon-branding-ob--dark.png" alt="Overblog">
+      </a>    </div>
+
+    <div class="ob-ShareBar-container ob-ShareBar-container--right">
+                      <a href="#" data-href="https://www.facebook.com/sharer/sharer.php?u={referer}" title=" facebook"="FACEBOOK"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--facebook"></a>
+        <a href="#" data-href="https://twitter.com/intent/tweet?url={referer}&amp;text={title}" title=" twitter"="TWITTER"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--twitter"></a>
+        <a href="#" data-href="#" title=" pinterest"="PINTEREST"|trans }}"" class="ob-ShareBar-share ob-ShareBar-share--pinterest js-ob-ShareBar-share--pinterest"></a>
+
+        <form action="/search" method="post" accept-charset="utf-8" class="ob-ShareBar-search">
+          <input type="text" name="q" value="" class="ob-ShareBar-input" placeholder="Rechercher">
+          <button class="ob-ShareBar-submit"></button>
+        </form>
+
+                  <a href="https://admin.over-blog.com/1844442/write/100523063" class="ob-ShareBar-edit ob-ShareBar--connected-blog">
+            <span class="ob-ShareBar-text">Editer l'article</span>
+          </a>
+        
+                  <a class="js-ob-ShareBar-follow ob-ShareBar--connected ob-ShareBar-follow" href="https://admin.over-blog.com/_follow/1844442" target="_blank" rel="nofollow">
+              Suivre ce blog
+          </a>
+        
+        <a href="https://admin.over-blog.com/" class="ob-ShareBar-admin ob-ShareBar--connected">
+          <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+          <span class="ob-ShareBar-text">Administration</span>
+        </a>
+      
+      <a href="https://connect.over-blog.com/fr/login" class="ob-ShareBar-login ob-ShareBar--notconnected">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/images/lock-alt-dark.svg" class="ob-ShareBar-lock">
+        <span class="ob-ShareBar-text">Connexion</span>
+      </a>
+            <a href="https://www.over-blog.com/creation" class="ob-ShareBar-create ob-ShareBar--notconnected">
+        <span class="ob-ShareBar-plus">+</span>
+        <span class="ob-ShareBar-text">Créer mon blog</span>
+      </a>
+
+              <span class="ob-ShareBar-toggle ob-ShareBar-toggle--hide js-ob-ShareBar-toggle"></span>
+          </div>
+  </div>
+
+      <div class="ob-ShareBar ob-ShareBar--minified js-ob-ShareBar--minified">
+      <div class="ob-ShareBar-container">
+        <span class="ob-ShareBar-toggle ob-ShareBar-toggle--show js-ob-ShareBar-toggle"></span>
+      </div>
+    </div>
+  
+  <script src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/sharebar.db8ff6e0.js"></script>
+  <script>
+        var postTitle = "CONNEXION, le doigt coup\u00e9 o\u00f9 la connexion perdue, le digital mutilant\u2026"
+        socialShare(document.querySelector('.ob-ShareBar-share--facebook'), postTitle)
+        socialShare(document.querySelector('.ob-ShareBar-share--twitter'), postTitle)
+      </script>               <div id="fb-root"></div>
+            <!-- global -->
+            <div id="global">
+                <!-- header -->
+                <header>
+                    <div class="banner clearfix">
+                                                      <div class="avatar">
+                                <a href="http://www.dvsm.eu"><img src="https://image.over-blog.com/f3E1oh8Pq4kf2iTeJqejRo7bx-o=/100x100/smart/filters:no_upscale()/image%2F1844442%2F20150915%2Fob_cb0234_carre-intro.jpg" alt="DVSM" width="100" height="100"  /></a>
+                            </div>
+                                                <div class="banner-title">
+                                                        <p class="blog-title">
+                                <a href="http://www.dvsm.eu" title="Infos, analyses, documents, pour professionnels et public, &eacute;lectronique, num&eacute;rique, photo, son, IT, t&eacute;l&eacute;coms, jeu vid&eacute;o, automobile, mobilit&eacute;s, distribution, industries. Blog cr&eacute;&eacute; par le mensuel Distribution, Ventes &amp; Services Magazine &reg;">DVSM</a>
+                            </p>
+                            
+                            <p class="description h3-like">Infos, analyses, documents, pour professionnels et public, &eacute;lectronique, num&eacute;rique, photo, son, IT, t&eacute;l&eacute;coms, jeu vid&eacute;o, automobile, mobilit&eacute;s, distribution, industries. Blog cr&eacute;&eacute; par le mensuel Distribution, Ventes &amp; Services Magazine &reg;</p>
+                        </div>
+                        <nav class="menu">
+                            <ul>
+                                <li>
+                                    <a href="http://www.dvsm.eu" title="Retour à l'accueil">Accueil</a>
+                                </li>
+                                                                    <li
+                                                                                >
+                                        <a href=" "> </a>
+                                    </li>
+                                                                                                    <li
+                                                                                >
+                                        <a href=" http://www.dvsm.eu"> TOUTES LES INFOS</a>
+                                    </li>
+                                                                                                    <li
+                                                                                >
+                                        <a href="http://www.dvsm.eu/2019/06/a-voir-en-video.html">A VOIR EN VIDEO</a>
+                                    </li>
+                                                                                                                                                                                                    <li
+                                                                                >
+                                        <a href="http://www.dvsm.eu/asavoir/">DVSM, c'est quoi...?</a>
+                                    </li>
+                                                                <li>
+                                    <a href="/contact" title="Contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                                            </div>
+                </header>
+                
+                <!-- main -->
+                <div class="main single">
+                    <div class="wrapper clearfix">
+                        <section class="content">
+                                                                                                                                <article class="item">
+                                        <header>
+                                                                                        <h1 class="post-title">
+                                            
+                                                <a class="permalink" href="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html" title="Il y a parfois des choix compliqués à faire dans la vie. Et des esprits de sondeurs dont les boyaux de la tête obéissent à des mécanismes encore plus compliqués. - DVSM, mars 2019. Louis XVI et son autrichienne de compagne auraient-ils répondu un peu...">
+                                                                                                            CONNEXION, le doigt coupé où la connexion perdue, le digital mutilant…
+                                                                                                    </a>
+                                                                                        </h1>
+                                                                                        <time datetime="2019-03-15T17:12:33+01:00" pubdate="pubdate">15 Mars 2019</time>
+                                        </header>
+                                        <div class="entry">
+                                                                                            
+
+
+  <div class="ob-sections">
+      
+    
+     
+  <div
+    class="ob-section ob-section-html "
+      >
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" src="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_0234b5_aaf-doigt-coupe.jpg" /></figure>
+
+<p><span style="color:#800000;"><span style="font-size:20px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Il y a parfois des choix compliqu&eacute;s &agrave; faire dans la vie. Et des esprits de sondeurs dont les boyaux de la t&ecirc;te ob&eacute;issent &agrave; des m&eacute;canismes encore plus compliqu&eacute;s.</span></span></span></p>
+
+<p style="margin:0cm 0cm 0.0001pt"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="color:#800000;"><strong>- DVSM, mars 2019. Louis XVI et son autrichienne de compagne auraient-ils r&eacute;pondu un peu trop vite &agrave; une question </strong></span><span style="color:null;">aussi saugrenue que celle imagin&eacute;e chez &quot;cable.co.uk&quot;,</span> fournisseur haut d&eacute;bit sur les terres de sa Gracieuse Majest&eacute;&hellip;? Apr&egrave;s tout, &quot;</span></span><span style="font-family:Georgia,serif;"><span style="font-size:12px;"><em><strong>ma t&ecirc;te &agrave; couper</strong></em></span></span><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">&quot; est une ritournelle de langage banale mais &agrave; g&eacute;rer avec pr&eacute;cautions. Tout comme l&#39;interrogation pos&eacute;e par l&#39;op&eacute;rateur britannique d&eacute;j&agrave; cit&eacute; &agrave; laquelle des consommateurs ont r&eacute;pondu.</span></span></p>
+
+<p style="margin:0cm 0cm 0.0001pt">&nbsp;</p>
+
+<figure class="image-align-center" style="margin:10px 0px 10px 0px"><img alt="" src="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_64df37_0-etre-averti03.jpg" /></figure>
+
+<p style="margin:0cm 0cm 0.0001pt">&nbsp;</p>
+
+<p style="margin:0cm 0cm 0.0001pt"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="color:#800000;"><strong>Incroyable, 1 sur 3 parmi les r&eacute;pondants &agrave; l&#39;enqu&ecirc;te pr&eacute;tend qu&#39;il pr&eacute;f&egrave;rerait se passer d&#39;un doigt &agrave; sa ch&egrave;re connexion&hellip;!</strong> </span>On ne dit pas lequel il choisirait pour ce geste majeur<span style="color:#ff0000;"><strong>*</strong></span>, mais il y a quand m&ecirc;me des h&eacute;sitations dans l&#39;air, car </span></span><span style="font-family:Georgia,serif;"><em><strong><span style="font-size:12px;">25% des sond&eacute;s affirment qu&#39;ils seraient bien embarrass&eacute;s s&#39;ils devaient opter pour ou contre</span></strong></em></span><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"> une telle mutilation. Le sondage ne rassure donc que tr&egrave;s partiellement, en sous-entendant que 66% des personnes resteraient avec pertinence pr&ecirc;tes &agrave; faire un doigt d&#39;honneur plut&ocirc;t que d&#39;accepter de devenir donneur de doigt. Les incessantes questions &agrave; propos du brexit ont d&ucirc; alt&eacute;rer les facult&eacute;s des organismes de sondages, les bonnes questions &eacute;tant pour un moment mises &agrave; l&#39;index. Il reste que la connexion est bel et bien entr&eacute;e comme un &eacute;l&eacute;ment de la vie quotidienne n&#39;ayant rien d&#39;accessoire.</span></span></p>
+
+<p style="margin:0cm 0cm 0.0001pt">&nbsp;</p>
+
+<p style="margin:0cm 0cm 0.0001pt"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="color:#ff0000;"><strong>*</strong></span> </span></span><span style="font-size:12px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Savaient-ils (retour &agrave; une approche plus s&eacute;rieuse) que la perte d&#39;un seul doigt &agrave; une main entra&icirc;ne bien plus de cons&eacute;quences ennuyeuses qu&#39;on pourrait le croire.&nbsp;</span></span></p>
+
+<figure class="image-align-right" style="margin:10px 0px 10px 10px"><a href="http://www.dvsm.eu" target="_blank"><img alt="" src="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_657c99_0-zz-retour-infos.jpg" /></a></figure>
+
+<p>&nbsp;</p>
+
+<figure class="image-align-right" style="margin:10px 0px 10px 10px"><a href="http://www.itnumeric.com" target="_blank"><img alt="" src="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_838e2c_0-zz-vers-itnum.jpg" /></a></figure>
+
+<p>&nbsp;</p>
+    </div>
+
+
+        
+
+  </div>
+  
+                                            
+                                                                                            <section class="item-tags">
+                                                    Tag(s) :
+                                                                                                            <a href="/tag/l%27info%20en%20temps%20reel/">#L'info en temps réel</a>,                                                                                                             <a href="/tag/-%20sourires%20et%20clins%20d%27oeil/">#- Sourires et clins d'oeil</a>                                                                                                    </section>
+                                            
+                                                                                            <footer>
+                                                    <div class="bloc-infos clearfix">
+                                                                
+
+  
+                
+          <div class="ob-h3 ob-Shares-title">Partager cet article</div>
+          <div class="ob-Shares ob-Shares--right ob-Shares--horizontal ">
+        <div class="ob-Shares-facebookShare">
+        <div class="fb-share-button" data-href="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html" data-layout="button_count"></div>
+    </div>
+            <div class="ob-Shares-twitter">
+        <a class="twitter-share-button"
+          href="https://twitter.com/share"
+          data-url="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html"
+                    data-hashtags="L'info en temps réel,- Sourires et clins d'oeil"          data-text="CONNEXION,&#x20;le&#x20;doigt&#x20;coup&#x00E9;&#x20;o&#x00F9;&#x20;la&#x20;connexion&#x20;perdue,&#x20;le&#x20;digital&#x20;mutilant&#x2026;"
+          data-lang="en"
+          ></a>
+    </div>
+                <div class="ob-Shares-pinterest">
+        <a href="https://pinterest.com/pin/create/button/"
+                        data-pin-count="beside"
+                        data-pin-color="red"
+            data-pin-config="beside"
+            data-pin-description="CONNEXION,&#x20;le&#x20;doigt&#x20;coup&#x00E9;&#x20;o&#x00F9;&#x20;la&#x20;connexion&#x20;perdue,&#x20;le&#x20;digital&#x20;mutilant&#x2026;"
+            data-pin-media="https://img.over-blog-kiwi.com/1/84/44/42/20190315/ob_34a883_aaf-doigt-coupe.jpg"
+            data-pin-url="http://www.dvsm.eu/2019/03/connexion-le-doigt-coupe-ou-la-connexion-perdue-le-digital-mutilant.html"
+            target="_BLANK"
+        >
+            <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" />
+        </a>
+    </div>
+            <div class="ob-Shares-overblog">
+        <a id="repost-100523063" class="ob-repost-btn" href="https://admin.over-blog.com/_repost/100523063" rel="nofollow" target="_blank"><span class="ob-repost-label">Repost</span><span class="ob-repost-count">0</span></a><script>
+  ob.repost(document.querySelector("#repost-100523063"))
+</script>
+    </div>
+        <div class="ob-Shares-print" style="display:none">
+        <img src="https://assets.over-blog-kiwi.com/b/blog/v2023.14.02/build/images/printer.png">
+    </div>
+</div>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-jssdk'));
+</script>
+
+<script>
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.defer = true;
+            js.id = id;
+            js.src = 'https://assets.pinterest.com/js/pinit.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'pinterest-jssdk'));
+</script>
+
+
+                                                    </div>
+                                                    <div class="bloc-infos clearfix">
+                                                        <div class="ob-Newsletter">
+  <button class="ob-input ob-Newsletter-toggle">S'inscrire à la newsletter</button>
+  <div class="ob-Newsletter-box">
+    <div class="ob-Newsletter-description">Pour être informé des derniers articles, inscrivez vous :</div>
+    <form class="ob-Newsletter-form" action="/mail/subscribe?utm_source=_ob_abo_newsletter&amp;utm_medium=_ob_bottom_article" method="post">
+      <input class="ob-input ob-Newsletter-input" type="email" name="email" placeholder="Saisissez votre email ici" required="required" />
+      <input class="ob-input ob-Newsletter-submit" type="submit" value="Valider" />
+    </form>
+  </div>
+</div>
+<script>
+  var toggle = document.querySelector(".ob-Newsletter-toggle")
+  var box = document.querySelector(".ob-Newsletter-box")
+  toggle.addEventListener("click", function (event) {
+    box.classList.toggle("ob-Newsletter-box--open")
+  })
+</script>
+
+                                                    </div>
+                                                    <div class="bloc-infos clearfix">
+                                                                        
+                
+                            
+                <div class="ob-Related">
+            <div class="ob-h3 ob-Related-title">Vous aimerez aussi :</div>
+            <div class="ob-Related-posts">
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="http://www.dvsm.eu/2019/11/le-terrain-une-revanche-inattendue-du-couple-centre-ville-et-commerce-physique.html" title="LE TERRAIN, une revanche inattendue du couple centre-ville et commerce physique.">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/cDXISdi2pBBwHYis5ubLE0cIt5Y=/400x260/smart/filters:no_upscale()/image%2F1844442%2F20191128%2Fob_73e4f6_aaf-ikea-paris.jpg" alt="LE TERRAIN, une revanche inattendue du couple centre-ville et commerce physique."/>
+    
+    <div class="ob-RelatedPost-title" >
+              LE TERRAIN, une revanche inattendue du couple centre-ville et commerce physique.
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="http://www.dvsm.eu/2019/11/telecoms-une-inevitable-tendance-aux-manoeuvres-de-rationalisation-se-dessine.html" title="TÉLÉCOMS, une inévitable tendance aux manœuvres de rationalisation se dessine…">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/uMy3XyzNOtccNOMWJSZ7Cel1dL4=/400x260/smart/filters:no_upscale()/image%2F1844442%2F20191128%2Fob_88ac4c_aaf-proximus-anvers.jpg" alt="TÉLÉCOMS, une inévitable tendance aux manœuvres de rationalisation se dessine…"/>
+    
+    <div class="ob-RelatedPost-title" >
+              TÉLÉCOMS, une inévitable tendance aux manœuvres de rationalisation se dessine…
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="http://www.dvsm.eu/2019/11/enseignes-une-autre-maniere-de-gerer-des-surfaces-devenues-un-peu-trop-grandes.html" title="ENSEIGNES, une autre manière de gérer des surfaces devenues un peu trop grandes...…">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/3oN8rZq0J0rPsQFhaZpv4QMjjDQ=/400x260/smart/filters:no_upscale()/image%2F1844442%2F20191128%2Fob_bd3c9a_aaf-aubert-chez-carrefour.jpg" alt="ENSEIGNES, une autre manière de gérer des surfaces devenues un peu trop grandes...…"/>
+    
+    <div class="ob-RelatedPost-title" >
+              ENSEIGNES, une autre manière de gérer des surfaces devenues un peu trop grandes...…
+          </div>
+  </a>
+</div>
+                </div>
+                                <div class="ob-Related-post">
+                    <div class="ob-RelatedPost">
+  <a class="ob-RelatedPost-link" href="http://www.dvsm.eu/2019/11/organisations-professionnelles-asus-france-vient-de-rejoindre-le-secimavi.html" title="ORGANISATIONS PROFESSIONNELLES -ASUS France vient de rejoindre le SECIMAVI.">
+          <img class="ob-RelatedPost-image" src="https://image.over-blog.com/RJjvFLA2FVJ3dMtf9T4e3wltQVg=/400x260/smart/filters:no_upscale()/image%2F1844442%2F20191125%2Fob_ee0cc9_aaf-asus-clavier.jpg" alt="ORGANISATIONS PROFESSIONNELLES -ASUS France vient de rejoindre le SECIMAVI."/>
+    
+    <div class="ob-RelatedPost-title" >
+              ORGANISATIONS PROFESSIONNELLES -ASUS France vient de rejoindre le SECIMAVI.
+          </div>
+  </a>
+</div>
+                </div>
+                            </div>
+        </div>
+        <style>
+            @media only screen and (min-width: 970px) {
+            .ob-Related-posts {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -moz-box-wrap: nowrap;
+                -webkit-box-wrap: nowrap;
+                -webkit-flex-wrap: nowrap;
+                -ms-flexbox-wrap: nowrap;
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                -moz-box-direction: row;
+                -webkit-box-direction: row;
+                -webkit-box-orient: horizontal;
+                -webkit-flex-direction: row;
+                -ms-flexbox-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+
+                .ob-Related-post {
+                    -webkit-box-basis: auto;
+                    -webkit-flex-basis: auto;
+                    -ms-flex-basis: auto;
+                    flex-basis: auto;
+                    -webkit-box-flex: 1;
+                    -moz-box-flex: 1;
+                    -webkit-flex: 1;
+                    -ms-flex: 1 0 auto;
+                    flex: 1;
+                    margin-bottom: 0;
+                }
+
+                .ob-Related-post:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        </style>
+    
+                                                    </div>
+                                                    <div class="bloc-infos clearfix">
+                                                                                                            </div>
+                                                </footer>
+                                                                                    </div>
+                                    </article>
+                                    
+                                    	<div class="ob-PostNavigation">
+					<a href="http://www.dvsm.eu/2019/03/medpi-2019-laurent-eydieu-evoque-les-nouveaux-outils-mis-en-oeuvre.html" class="ob-PostNavigation-link ob-PostNavigation-link--prev" title="Aller à &quot;MEDPI 2019, Laurent Eydieu évoque les nouveaux outils mis en œuvre…&quot;">
+				<div class="ob-PostNavigationLink-chevron"></div>
+				<div class="ob-PostNavigationLink-label">
+											MEDPI 2019, Laurent Eydieu évoque les nouveaux outils mis en œuvre…
+									</div>
+			</a>
+							<a href="http://www.dvsm.eu/2019/03/europe-1-une-vente-de-vinyles-qui-ne-manque-pas-de-facettes-insolites.html" class="ob-PostNavigation-link ob-PostNavigation-link--next" title="Aller à &quot;EUROPE 1, une vente de vinyles qui ne manque pas de facettes insolites…&quot;">
+				<div class="ob-PostNavigationLink-label">
+											EUROPE 1, une vente de vinyles qui ne manque pas de facettes insolites…
+									</div>
+				<div class="ob-PostNavigationLink-chevron"></div>
+			</a>
+			</div>
+
+
+                                                                            <aside class="item-comments" id="comments">
+                                            <!-- comments -->
+                                            <div class="ob-h3">Commenter cet article</div>
+                                                                                            
+<div id="ob-comments">
+			<button class="ob-button-primary" disabled>
+			Ajouter un commentaire
+		</button>
+		<div class="ob-list">
+			</div>
+</div>
+
+<script>
+	var isCommentAppInitialized = false;
+
+	function initCommentApp(){
+		if(!isCommentAppInitialized){
+			ob.initCommentApp(document.querySelector("#ob-comments"), {"postID":100523063,"locale":"fr","I18N":{"reply":"R\u00e9pondre","moderated":"Votre commentaire a bien \u00e9t\u00e9 envoy\u00e9.<br\/>Il s\u2019affichera une fois approuv\u00e9 par le propri\u00e9taire du blog.","recaptcha_disclaimer":"Ce site est prot\u00e9g\u00e9 par reCAPTCHA et les <a target=\"_blank\" rel=\"noreferer,noopener\" href=\"https:\/\/policies.google.com\/privacy\">Politiques de confidentialit\u00e9<\/a> et <a target=\"_blank\" rel=\"noreferer,noopener\" href=\"https:\/\/policies.google.com\/terms\">Conditions de service<\/a> de Google s'appliquent.","recaptcha_expired":"recaptcha_expired","recaptcha_error":"recaptcha_error","more_comments":"Charger plus de commentaires","more_replies":"Charger plus de r\u00e9ponses","author":"Auteur","name_placeholder":"Nom","email_placeholder":"Email","website_placeholder":"Site web","comment_placeholder":"Votre commentaire","send_comment":"Envoyer le commentaire","comment_with_overblog":"Commenter avec votre compte Overblog","logout":"Se d\u00e9connecter","add_comment":"Ajouter un commentaire","generic_error":"Es ist ein Fehler aufgetreten, bitte versuchen Sie es sp\u00e4ter noch einmal"}});
+			isCommentAppInitialized = true
+		}
+	}
+
+	setTimeout(initCommentApp, 2000)
+	window.addEventListener('load', initCommentApp)
+</script>
+
+                                                                                    </aside>
+                                                                                                
+                                                    </section>
+
+                        <aside class="sidebar">
+                                                                                        
+                            
+                                                            <div class="widget follow">
+                                    <header>
+                                        <p class="widget-title">Suivez-moi</p>
+                                    </header>
+                                    <div class="entry">
+                                        <ul>
+                                                                                                                                    <li class="rss">
+                                                <a href="/rss">via RSS</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                                                                        <div class="widget subscribe">
+                                    <header>
+                                        <p class="widget-title">Newsletter</p>
+                                    </header>
+                                    <div class="entry">
+                                        <p>Abonnez-vous pour être averti des nouveaux articles publiés.</p>
+                                        <!-- subscription form -->
+<form action="/mail/subscribe?utm_source=_ob_abo_newsletter&amp;utm_medium=_ob_sidebar" method="post" class="ob-form ob-form-subscription">
+    <div class="ob-form-field">
+        <label class="ob-label required" for="form_email">Email</label>
+        <input type="email" id="form_email" name="email" placeholder="Saisissez votre email ici" required="required" class="ob-input ob-input-email" />
+    </div>
+    <input type="submit" value="S'abonner" class="ob-input ob-input-submit" />
+</form>
+                                    </div>
+                                </div>
+                            
+
+                            
+                                                            <div class="widget tags">
+                                    <header>
+                                        <p class="widget-title">Catégories</p>
+                                    </header>
+                                    <div class="entry">
+                                        <ul>
+                                                                                            <li>
+                                                    <a href="/tag/l%27info%20en%20temps%20reel/">#L'info en temps réel</a> <span class="number">1564</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20a%20la%20une/">#- A LA UNE</a> <span class="number">1182</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20a%20la%20une/">#- A la Une</a> <span class="number">398</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20tout%20le%20commerce/">#- TOUT LE COMMERCE</a> <span class="number">386</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20c%27est%20un%20avis/">#- C'est un avis</a> <span class="number">259</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20toute%20l%27industrie/">#- TOUTE L'INDUSTRIE</a> <span class="number">223</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20reperes%20et%20chiffres/">#- Repères et chiffres</a> <span class="number">207</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20telecoms/">#- Télécoms</a> <span class="number">196</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20expos%20et%20salons/">#- Expos et salons</a> <span class="number">192</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20eco-conjoncture/">#- Eco-conjoncture</a> <span class="number">167</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20demande%20reflexion%20!/">#- DEMANDE RÉFLEXION !</a> <span class="number">163</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20%20tv-radios-medias-net/">#-  TV-Radios-Medias-Net</a> <span class="number">161</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20photo%20et%20video/">#- Photo et vidéo</a> <span class="number">157</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20a%20cause%20du%20virus.../">#- A cause du virus...</a> <span class="number">103</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20auto%20-%20mobilites/">#- Auto - Mobilités</a> <span class="number">102</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20it%20et%20numerique/">#- IT et numérique</a> <span class="number">98</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20grrr...!%20et%20cartons%20rouges/">#- Grrr...! et cartons rouges</a> <span class="number">83</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20edito%20par%20yves%20dupre/">#- Edito par Yves Dupré</a> <span class="number">80</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20son%20hr%20et%20home%20cinema/">#- Son HR et Home cinéma</a> <span class="number">77</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20autour%20de%20l%27auto/">#- Autour de l'auto</a> <span class="number">72</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20jeux%20video/">#- Jeux vidéo</a> <span class="number">70</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20televiseurs-ecrans-video/">#- Téléviseurs-écrans-vidéo</a> <span class="number">65</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/itnumeric/">#ITnumeric</a> <span class="number">61</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20insolite.../">#- INSOLITE...</a> <span class="number">58</span>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="/tag/-%20sourires%20et%20clins%20d%27oeil/">#- Sourires et clins d'oeil</a> <span class="number">58</span>
+                                                </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            
+                            
+                                                            <div class="widget last-posts">
+                                    <header>
+                                        <p class="widget-title">articles récents</p>
+                                    </header>
+                                    <div class="entry clearfix">
+                                        <ul class="clearfix">
+                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/chiffres-et-stats-epilogue-gfk-s-est-separe-de-ses-panels-de-consommateurs-europeens.html" title="L'ombre d'un acteur majeur dans le travail d'observation et de mesure des marchés ne disparaîtra pas des mémoires, mais induit quelques regrets pour bien des professionnels. Nostalgies...? - ---D V SM--- - - DVSM, 20 juillet 2023. Les changements éco-conjoncturels...">
+                                                            <img src="https://image.over-blog.com/KzAWgLbp1pWKGsmJ7_gC0-3Jq-I=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230720%2Fob_5c8b31_aaf-stats.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/chiffres-et-stats-epilogue-gfk-s-est-separe-de-ses-panels-de-consommateurs-europeens.html" title="L'ombre d'un acteur majeur dans le travail d'observation et de mesure des marchés ne disparaîtra pas des mémoires, mais induit quelques regrets pour bien des professionnels. Nostalgies...? - ---D V SM--- - - DVSM, 20 juillet 2023. Les changements éco-conjoncturels...">
+                                                                                                                            CHIFFRES ET STATS : épilogue, GfK s...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/electricire-la-face-cachee-et-un-peu-perverse-d-une-augmentation-dans-la-torpeur-d-un-ete.html" title="Quand la fiscalité avance masquée...! En France, championne reconnue des prélèvements, il est rare qu'une taxe (ou son augmentation) n'en cache pas une autre. TVA sous tension...! - ---D V SM--- - - DVSM, 19 juillet 2023. Il y aurait eu une décision d'augmentation...">
+                                                            <img src="https://image.over-blog.com/Li8pIHGcYV06C5VASaip0tX-Fzk=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230719%2Fob_6e58a8_000-abased-energies.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/electricire-la-face-cachee-et-un-peu-perverse-d-une-augmentation-dans-la-torpeur-d-un-ete.html" title="Quand la fiscalité avance masquée...! En France, championne reconnue des prélèvements, il est rare qu'une taxe (ou son augmentation) n'en cache pas une autre. TVA sous tension...! - ---D V SM--- - - DVSM, 19 juillet 2023. Il y aurait eu une décision d'augmentation...">
+                                                                                                                            ÉLECTRICITÉ : la face cachée et un...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/automobiles-le-vigoureux-succes-de-l-electrique-est-il-aussi-solide-qu-affirme-de-ci-de-la.html" title="Sur le front de l'automobile motorisée aux électrons, les nouvelles se suivent, mais ne se ressemblent pas toujours. "La vérité si je mens...?" - ---D V SM--- - - DVSM, 19 juillet 2023. Collision en pleine actualité : alors que des avis parfois contraires...">
+                                                            <img src="https://image.over-blog.com/IVjmyCiUOwBeua5SPLS1ggh97fE=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230719%2Fob_49ea50_000-abased-auto-mobilites.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/automobiles-le-vigoureux-succes-de-l-electrique-est-il-aussi-solide-qu-affirme-de-ci-de-la.html" title="Sur le front de l'automobile motorisée aux électrons, les nouvelles se suivent, mais ne se ressemblent pas toujours. "La vérité si je mens...?" - ---D V SM--- - - DVSM, 19 juillet 2023. Collision en pleine actualité : alors que des avis parfois contraires...">
+                                                                                                                            AUTOMOBILES : le vigoureux succès d...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/l-emploi-et-la-discrete-face-cachee-mais-risquee-de-la-frenesie-des-marches-de-l-occasion.html" title="Durable : ce terme, devenu une sorte d'étalon moral des comportements, est-il aussi vertueux qu'on ne l'affirme...? À méditer... - ---D V SM--- - - DVSM, 18 juillet 2023. Deux objectifs symboles de l'époque actuelle se percutent de plein fouet dans leurs...">
+                                                            <img src="https://image.over-blog.com/ztTt7y6gUFEhbcdYQm0eQuEjRBY=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230718%2Fob_7bcb2f_aaf-0-0-au-brocante-et-occasion.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/l-emploi-et-la-discrete-face-cachee-mais-risquee-de-la-frenesie-des-marches-de-l-occasion.html" title="Durable : ce terme, devenu une sorte d'étalon moral des comportements, est-il aussi vertueux qu'on ne l'affirme...? À méditer... - ---D V SM--- - - DVSM, 18 juillet 2023. Deux objectifs symboles de l'époque actuelle se percutent de plein fouet dans leurs...">
+                                                                                                                            L'EMPLOI et la discrète face cachée...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/populations-un-sujet-qui-enfin-monte-dans-la-hierarchie-des-anxietes-mondiales.html" title="La peur planétaire a longtemps été celle des surpopulations. Les inquiétudes basculent, face à une évolution renversée, qui va peser lourd sur l'avenir de nombreux pays. - ---D V SM--- - - DVSM, 17 juillet 2023. Les observations concernant l'avenir des...">
+                                                            <img src="https://image.over-blog.com/44SZIqmrUSAwaBfRhHIhSqlEDLk=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230717%2Fob_23e556_aaf-foule-c.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/populations-un-sujet-qui-enfin-monte-dans-la-hierarchie-des-anxietes-mondiales.html" title="La peur planétaire a longtemps été celle des surpopulations. Les inquiétudes basculent, face à une évolution renversée, qui va peser lourd sur l'avenir de nombreux pays. - ---D V SM--- - - DVSM, 17 juillet 2023. Les observations concernant l'avenir des...">
+                                                                                                                            POPULATIONS : un sujet qui, enfin,...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                                                                                <li>
+                                                        <a href="http://www.dvsm.eu/2023/07/reseaux-sociaux-trop-d-acteurs-pas-assez-de-recettes-les-heures-difficiles-sont-arrivees.html" title="Inutile de chercher loin pour comprendre d'où viennent les turbulences que traversent certains acteurs majeurs des réseaux sociaux. Leurs recettes publicitaires sont tombées bien trop bas. Sans l'intendance, tout ce qui était grand devient fragile. -...">
+                                                            <img src="https://image.over-blog.com/VeHzbNBRWfIjzRCkI3OATwBMDoA=/137x137/smart/filters:no_upscale()/image%2F1844442%2F20230716%2Fob_651978_aaf-reseaux-sociaux.jpg" alt="" />
+                                                        </a>
+                                                        <p class="caption">
+                                                            <a href="http://www.dvsm.eu/2023/07/reseaux-sociaux-trop-d-acteurs-pas-assez-de-recettes-les-heures-difficiles-sont-arrivees.html" title="Inutile de chercher loin pour comprendre d'où viennent les turbulences que traversent certains acteurs majeurs des réseaux sociaux. Leurs recettes publicitaires sont tombées bien trop bas. Sans l'intendance, tout ce qui était grand devient fragile. -...">
+                                                                                                                            RÉSEAUX SOCIAUX : trop d'acteurs, p...
+                                                                                                                        </a>
+                                                        </p>
+                                                    </li>
+                                                                                                                                    </ul>
+                                    </div>
+                                </div>
+                            
+                                                            <div class="widget blogroll">
+                                    <header>
+                                        <p class="widget-title">Liens</p>
+                                    </header>
+                                    <div class="entry clearfix">
+                                        <ul class="list">
+                                                                                            <li>
+                                                    <a href="http://www.kelerepus.eu" target="_blank">
+                                                                                                                    Loisirs et techniques sur KELEREPUS
+                                                                                                            </a>
+                                                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+                                    </div>
+                                </div>
+                            
+                                                                                                                </aside>
+                                                <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Scripts -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+            <script src="https://assets.over-blog.com/t/catalog/jquery/masonry/2.1.08/jquery.masonry.min.js"></script>
+            <script src="https://assets.over-blog.com/t/catalog/jquery/fancybox/2.5/source/jquery.fancybox.pack.js"></script>
+
+            <script>
+                
+                                    // Twitter share + tweets
+                    !function(d,s,id){
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if(!d.getElementById(id)){
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "https://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js,fjs);
+                        }
+                    }(document,"script","twitter-wjs");
+                
+                // Facebook comments + share
+                (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=284865384904712";
+                        fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+
+                
+                // Google + button
+                window.___gcfg = {lang: 'fr'};
+
+                (function() {
+                    var po = document.createElement('script');
+                        po.type = 'text/javascript';
+                        po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(po, s);
+                })();
+
+                // FancyBox
+                $(".ob-link-img, .author-avatar, .blog-avatar, .asset-img-link, .avatar").attr("rel", "fancybox");
+                $("a[rel=fancybox]").fancybox({
+                    'overlayShow'   : true,
+                    'transitionIn'  : 'fadin',
+                    'transitionOut' : 'fadin',
+                    'type'          : 'image'
+                });
+
+                // Twitter controls
+                var TwitterControls = function (elements){
+                    $(elements).find(".ob-tweet").each(function(){
+                        var $datatwitter = $(this).find("a[data-twitter]").attr("data-twitter");
+
+                        $(this).parent().parent().find(".tweet-reply").attr("href", "https://twitter.com/intent/tweet?in_reply_to=" + $datatwitter);
+                        $(this).parent().parent().find(".tweet-retweet").attr("href", "https://twitter.com/intent/retweet?tweet_id=" + $datatwitter);
+                        $(this).parent().parent().find(".tweet-favorite").attr("href", "https://twitter.com/intent/favorite?tweet_id=" + $datatwitter);
+                    });
+                }
+
+                // Social popup
+                var SocialPopup = function() {
+                    $(".tweet-reply, .tweet-retweet, .tweet-favorite, .share a").click(function() {
+                        var $popup = window.open($(this).prop("href"), '',"width=650, height=325, scrollbars=0, left=" +((screen.width - 650)/2) + ", top=" + ((screen.height - 325)/2) );
+                        if (window.focus){
+                            $popup.focus();
+                        }
+                        return false;
+                    });
+                }
+
+                if($.browser.msie && $.browser.version <= 8.0 ){
+                    $('input[placeholder]').each(function(){
+                        var input = $(this);
+                        $(input).val(input.attr('placeholder'));
+                        $(input).focus(function(){
+                             if (input.val() == input.attr('placeholder')) {
+                                 input.val('');
+                             }
+                        });
+                        $(input).blur(function(){
+                            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                                input.val(input.attr('placeholder'));
+                            }
+                        });
+                    });
+                }
+
+                            </script>
+                     <script>
+  var postTitle = "CONNEXION, le doigt coup\u00e9 o\u00f9 la connexion perdue, le digital mutilant\u2026"
+  ob.printPost(postTitle)
+</script>
+  <div class="ob-footer" id="legals" >
+    <ul>
+        <li class="ob-footer-item">Voir le profil de <a href="https://www.over-blog.com/user/1400656.html" target="_blank">DVSM</a> sur le portail Overblog</li>
+                <li class="ob-footer-item"><a href="/top">Top articles</a></li>
+        <li class="ob-footer-item"><a href="/contact">Contact</a></li>
+        <li class="ob-footer-item"><a href="https://www.over-blog.com/abuse/1844442"> Signaler un abus </a></li>
+        <li class="ob-footer-item"><a href="https://www.over-blog.com/terms-of-use" target="_blank">C.G.U.</a></li>
+            <li class="ob-footer-item"><a href="https://www.over-blog.com/cookies" target="_blank">Cookies et données personnelles</a></li>
+        <li class="ob-footer-item"><a href="javascript:Didomi.notice.show()">Préférences cookies</a></li>
+    </ul>
+</div>
+      <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', "GTM-WG3SK3P");
+  </script>
+ </body>
+    </html>

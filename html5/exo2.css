@@ -1,0 +1,19 @@
+#grand {
+    height: 150px;
+    width: auto;
+    background-color: red;
+    border: 3px solid blue;
+}
+
+.trois {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: green;
+    margin: 60px 5px;
+}
+
+.boite {
+    display: flex;
+    justify-content: right;
+}

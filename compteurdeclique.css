@@ -1,0 +1,108 @@
+.ecran {
+    height: 97vh;
+    width: 80vw;
+    background-color: whitesmoke;
+}
+
+#bouton {
+    height: 10vh;
+    width: 45vw;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+#compteur {
+    margin-top: 3vh;
+    height: 20vh;
+    width: 20vw;
+    background-color: antiquewhite;
+    margin-bottom: 1vh;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#boutton {
+    height: 10vh;
+    width: 45vw;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+#btnn {
+    height: 10vh;
+    width: 20vw;
+    background-color: blue;
+    text-align: center;
+}
+
+.affichage {
+    display: flex;
+    justify-content: center;
+}
+
+.haut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bas {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+#fois {
+    height: 10vh;
+    width: 30vw;
+    background-color: blue;
+    text-align: center;
+    margin-top: 1vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tresbas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surl {
+    display: flex;
+    justify-content: center;
+}
+
+#surligner {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 10vh;
+    width: 30vw;
+}
+
+#frebob {
+    background-color: green;
+}

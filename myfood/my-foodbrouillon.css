@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+.trait {
+    height: 3px;
+    width: 5vw;
+    font-weight: bold;
+    background-color: black;
+}
+
+#navv {
+    position: absolute;
+    left: 1px;
+    display: inline-block;
+    margin: 2vw;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+
+
+#menu {
+    display: none;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    background-color: floralwhite;
+    font-size: 45px;
+
+}
+
+#mennu {
+    list-style-type: none;
+    text-align: center;
+}
+
+#croix {
+    background-color: floralwhite;
+    height: 10vh;
+    width: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+}
+
+#x {
+    font-size: 70px;
+}
+
+.images {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sandwich {
+    align-items: end;
+    justify-content: center;
+    display: flex;
+}
+
+.texteun {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#menu.chapai {
+    display: flex;
+    z-index: 1000;
+}
+
+header h1 {
+    display: flex;
+    justify-content: end;
+}

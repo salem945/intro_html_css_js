@@ -1,0 +1,29 @@
+.bleu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: blue;
+}
+
+.rouge {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    margin-right: 20px;
+
+}
+
+#strong {
+    width: 200px;
+    height: 100px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.papstrong {
+    display: flex;
+    justify-content: center;
+
+}

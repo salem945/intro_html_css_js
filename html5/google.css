@@ -1,0 +1,154 @@
+header {
+    display: flex;
+    justify-content: end;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.gmail {
+    margin-right: 1vw;
+    margin-top: 19px;
+}
+
+.images {
+    margin-right: 2vw;
+    margin-top: 19px;
+}
+
+#chapai {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: hidden;
+}
+
+#chapai:hover {
+    background-color: mediumblue;
+}
+
+.googlz {
+    text-align: -webkit-center;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 40vw;
+    padding: 0px 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: antiquewhite;
+}
+
+.chercher {
+    margin-top: 25px;
+}
+
+input.recherche {
+
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.fr {
+    color: dimgray;
+    height: 30vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    align-items: end;
+    position: fixed;
+    bottom: -70px;
+    width: 100%;
+}
+
+.objectif {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.bapage {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.gmaill {
+    color: black;
+    font-size: 14px;
+}
+
+.imagee {
+    color: black;
+    font-size: 14px;
+}
+
+.linkbdp {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.france {
+    margin-left: 20px;
+}
+
+.recherche {
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.recherche:hover {
+    border: 1px solid lightgray;
+}
+
+#recherche-text {
+    border: 0px;
+    width: 100%;
+    height: 75%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.ri-capsule-fill:hover {
+
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+.ri-capsule-fill {
+    height: 20px;
+}
+
+.ri-search-line {
+    display: flex;
+    justify-content: left;
+}
+
+.logcherche {}

@@ -1,0 +1,139 @@
+.hdp {
+    background-color: blue;
+    text-align: center;
+
+
+
+}
+
+h1 {
+    margin-left: 10px;
+    color: antiquewhite;
+}
+
+.dev {
+    color: antiquewhite;
+}
+
+.int {
+    margin-left: 10px;
+    color: yellow;
+}
+
+
+#jaune {
+    color: yellow;
+}
+
+.nom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bleu {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    padding: 20px;
+    background-color: blue;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+.orange {
+    color: orange;
+    font-style: italic;
+}
+
+
+.poste {
+    color: blue;
+}
+
+.date {
+    color: gray;
+    font-style: italic;
+}
+
+.bord {
+
+    border: 2px solid blue;
+    padding: 0 10px;
+}
+
+.vert {
+    color: green;
+}
+
+.borblu {
+    color: blue;
+}
+
+.nomblu {
+    color: blue;
+}
+
+.nuance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fonct {
+    color: orange;
+}
+
+.min {
+    display: inline;
+}
+
+.aquis {
+    color: orange;
+}
+
+.lang {
+    color: blue;
+}
+
+body {
+    margin: 0px;
+}
+
+#lemenu {
+    display: none;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#lemenu.ouvert {
+    display: flex;
+}
+
+.trait {
+    height: 3px;
+    width: 5vw;
+    font-weight: bold;
+    background-color: black;
+}
+
+#unmenu {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    right: 18px;
+}
+
+#close {
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-top: 50px;
+}
+
+.menu {
+    color: blue;
+    margin: 25px;
+}

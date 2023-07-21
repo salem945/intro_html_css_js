@@ -1,0 +1,22 @@
+#slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#gauche,
+#droite {
+    background-color: chocolate;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.images {
+    display: none;
+
+}

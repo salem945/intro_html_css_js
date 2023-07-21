@@ -1,0 +1,79 @@
+body {
+
+    background-color: cadetblue;
+}
+
+
+
+.rectbeigeun {
+    height: 25vh;
+    width: 50vw;
+    background-color: khaki;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ptirose {
+    height: 5vh;
+    width: 10vw;
+    background-color: darksalmon;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.double {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rectbeigedeu {
+    height: 25vh;
+    width: 50vw;
+    background-color: khaki;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ptirosedeu {
+    height: 5vh;
+    width: 10vw;
+    background-color: darksalmon;
+    margin-left: 20px;
+
+}
+
+#ptirosedeu {
+    height: 5vh;
+    width: 10vw;
+    background-color: darksalmon;
+    margin-left: 20px;
+}
+
+.b {
+    display: flex;
+    justify-content: right;
+}
+
+.a {
+    display: flex;
+    justify-content: left;
+}
+
+.c {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+
+.d {}
+
+
+.rectrose {
+    height: 25vh;
+    width: 100%;
+    background-color: darksalmon;
+    margin-top: 20px;
+}

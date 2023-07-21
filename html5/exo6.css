@@ -1,0 +1,56 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour {
+    min-width: 12vh;
+    max-width: 12vh;
+    height: 70vh;
+    width: 12vw;
+    background-color: darkgray;
+    display: table;
+    max-height: 69vh;
+}
+
+.tajon {
+    width: 13vh;
+    border: solid 1px white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fnetr {
+    width: 2vw;
+    height: 2vh;
+    background-color: gold;
+    margin-left: 2px;
+}
+
+.fnetro {
+    width: 2vw;
+    height: 2vh;
+    background-color: white;
+    margin-left: 2px;
+}
+
+.tajdeu {
+
+    width: 13vh;
+    border: solid 1px white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.bat {
+    display: flex;
+    align-items: center;
+}
