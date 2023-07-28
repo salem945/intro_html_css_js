@@ -55,8 +55,13 @@ body {
     right: 2vw;
 }
 
-#x {
+#croix {
     font-size: 30px;
+    background-color: #dfddc7eb;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .images {
@@ -99,6 +104,7 @@ body {
 .pageu {
     width: 50px;
     height: 50px;
+    cursor: pointer;
 
 
 }
@@ -211,6 +217,13 @@ hr {
     font-weight: bold;
 }
 
+#ligne p {
+    font-family: 'Karma';
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: solid;
+}
+
 #ligne {
     bottom: 56px;
     align-items: stretch;
@@ -236,11 +249,41 @@ hr {
     }
 }
 
-.gvoche p {
+
+
+
+#slide {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.slide {
+#gauche {
+    position: relative;
+    left: 20px;
+}
+
+#droite {
+    position: relative;
+    right: 20px;
+}
+
+#gauche,
+#droite {
+    background-color: #dfddc7eb;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.imagese {
     display: none;
+}
+
+#h1pc {
+    position: relative;
+    left: 10px;
+    top: 11px;
 }

@@ -1,0 +1,97 @@
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard {
+    background-color: crimson;
+}
+
+#views {
+    background-color: dodgerblue;
+}
+
+#shares {
+    background-color: cadetblue;
+}
+
+#users {
+    background-color: chocolate;
+}
+
+.icones {
+    padding-top: 10px;
+    width: 3vw;
+    padding-left: 10px;
+}
+
+.num {
+    color: white;
+}
+
+#messages {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.msg {
+    color: white;
+    margin: 0 !important;
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#shre {
+    width: 60px;
+}
+
+#trois {
+    height: 20px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+#pgrgsbartrois {
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+    animation: progressAnimationStrike 6s;
+    width: 75%;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    background-color: #E14444;
+}
+
+@keyframes progressAnimationStrike {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 40px 0;
+    }
+}

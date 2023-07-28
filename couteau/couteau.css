@@ -48,3 +48,37 @@ h1 {
         transform: scale(1);
     }
 }
+
+.doigtcoupey {
+    position: relative;
+    top: -316px;
+    left: 493px;
+    transform: rotate3d(10, 113, -266, -167deg);
+    animation: rotation 4s infinite linear;
+    transform-origin: 224px 211px;
+}
+
+
+.eclaboussures {
+    animation: scale 2s infinite;
+    animation-delay: 500ms;
+    bottom: 690px;
+    position: relative;
+    height: 300px;
+    width: 200px;
+    left: 449px;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0.2)
+    }
+
+    to {
+        transform: skew(10deg, 10deg)
+    }
+}
+
+.sangpartou {
+    width: 267px;
+}
