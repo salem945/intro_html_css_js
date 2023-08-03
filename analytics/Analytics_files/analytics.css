@@ -1,8 +1,13 @@
+body {
+    margin: 15px;
+}
+
 .menu {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 0px 10px;
 }
 
 .dashboard {
@@ -67,31 +72,129 @@
 
 #shre {
     width: 60px;
+    position: relative;
+    right: 12px;
 }
 
-#trois {
+.une {
+    height: 20px;
+    background-color: #939393;
+    width: 98vw;
+
+}
+
+
+
+.trois {
     height: 20px;
     overflow: hidden;
-    background-color: #F5F5F5;
-}
-
-#pgrgsbartrois {
-    transition: 0.4s linear;
-    transition-property: width, background-color;
-    animation: progressAnimationStrike 6s;
-    width: 75%;
+    background-color: #939393;
     font-size: 20px;
     color: #FFF;
     text-align: center;
-    background-color: #E14444;
+
 }
 
-@keyframes progressAnimationStrike {
-    0% {
-        background-position: 0 0;
+.prgrs1 {
+    height: 20px;
+    width: 25%;
+    background-color: #5cd229;
+    transform-origin: left;
+    animation: scaleX 2s infinite;
+    text-align: center;
+    animation-delay: 500ms;
+    color: #FFF;
+}
+
+@keyframes scaleX {
+    from {
+        transform: scaleX(0);
     }
 
-    100% {
-        background-position: 40px 0;
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.prgrs2 {
+    height: 20px;
+    width: 50%;
+    background-color: chocolate;
+    transform-origin: left;
+    animation: scaleX 2s infinite;
+    text-align: center;
+    animation-delay: 500ms;
+    color: #FFF;
+}
+
+
+.prgrs3 {
+    height: 20px;
+    width: 75%;
+    background-color: crimson;
+    transform-origin: left;
+    animation: scaleX 2s infinite;
+    text-align: center;
+    animation-delay: 500ms;
+    color: #FFF;
+}
+
+#map {
+    width: 98vw;
+}
+
+#portrait {
+    width: 72px;
+}
+
+#navdenav {}
+
+.ikon {
+    width: 20px;
+}
+
+.coulissantmenu {
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 800px;
+}
+
+#miky {
+    white-space: nowrap;
+}
+
+.iconesnav {
+    width: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navnavnav {
+    display: flex;
+    padding-top: 3vh;
+}
+
+#blok {
+    justify-content: space-between;
+    display: flex;
+}
+
+.menudumenu {
+    margin-top: 2vh;
+}
+
+.menu {
+    .menu:active+.coulissantmenu {
+        .menu+.coulissantmenu__base--tranxScale {
+            transform: translateX(200%) scale(2);
+        }
+    }
+}
+
+.coulissantmenu {
+    .coulissantmenu {
+        .coulissantmenu {
+            transition: transform 330ms ease-in-out;
+        }
     }
 }
